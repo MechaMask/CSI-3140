@@ -1,0 +1,24 @@
+img { width:100px; height:100px;}
+.box {
+border-style: solid;
+border-color: #F7A8B8;
+border-width: 6px;
+margin: 6px;
+}
+
+td{color:#FFFFFF }
+
+.cell {
+width: 80px;
+height: 80px;
+margin: 1px;
+text-align: center;
+background-color: #55CDFC;
+font-weight: bold;
+font-size: x-large;
+padding: 0px;
+
+}
+.empty {
+background-color: white;
+}

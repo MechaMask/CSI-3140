@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Fig. 6.1: welcome.html -->
+<!-- Displaying a line of text. -->
+<html>
+<head>
+<meta charset = "utf-8">
+<title>A First Program in JavaScript</title>
+<script type = "text/javascript">
+  var name;
+  var now = new Date();
+  var hour = now.getHours();
+
+
+document.writeln("<h1 style = \"color:red\">Welcome to JavaScript Programming!</h1>");
+// window.alert( "Welcome to\nJavaScript\n\"Programming!\"" );
+
+name = window.prompt( "Please enter your name" );
+  if (hour <12)
+  document.write("<h1>Good Morning, ");
+
+  if (hour >= 12){
+    hour=hour-12
+
+  if (hour <6)
+  document.write("<h1>Good Afternoon, ");
+  if (hour >=12)
+  document.write("<h1>Good Evening, ");
+}
+document.writeln(name +
+", welcome to JavaScript programming!</h1>")
+/*
+var age = window.prompt( "Please enter your age" );
+document.writeln( "<p>Your age is: "+age+"</p>" );
+var n1 = parseInt(window.prompt("Enter first integer: "));
+var n2 = parseInt(window.prompt("Enter second integer: "));
+var sum = n1+n2;
+document.writeln("<h1>The sum is "+sum+"</h1>"); */
+
+</script>
+</head><body>
+
+
+</body>
+</html>

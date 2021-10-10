@@ -1,0 +1,8 @@
+Solvable function
+
+Generate a Board
+
+Eventlisteners click event
+
+Alert illegal mcoes 
+
